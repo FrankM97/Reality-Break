@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class EnemyAI : MonoBehaviour {
 	public Transform Player;
-	int MoveSpeed = 4;
+	public int MoveSpeed = 100;
 	int MaxDist = 5;
 	int MinDist = 2;
 
