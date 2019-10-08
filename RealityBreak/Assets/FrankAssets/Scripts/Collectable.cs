@@ -7,6 +7,7 @@ using UnityEngine;
 public class Collectable : MonoBehaviour {
 	public int count;
 	public Text countText;
+   
 	
 	
 
@@ -26,15 +27,18 @@ public class Collectable : MonoBehaviour {
 	}
 
 
+
 	void SetCountText() {
 		countText.text = "Collected: " + count.ToString();
-		if (count >= 5) {
-			Cursor.visible = true;
-			Cursor.lockState = CursorLockMode.None;
-			SceneManager.LoadScene("Win");
-		}
-	}
+		if (count == 5)
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+            SceneManager.LoadScene("Win");
+        }
+    }
+}
 	//Some bits of this code were from the Unity Tutorial Roll-A-Ball, mainly the countText code
 	//The other bits came from Statement on Unity Answers
 	//Some bits were modified slightly to fit my game.
-}
+

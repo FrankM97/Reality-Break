@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 11400000}
   - component: {fileID: 5400000}
   - component: {fileID: 8200000}
-  - component: {fileID: 162516426}
+  - component: {fileID: 6169918548454473919}
   m_Layer: 0
   m_Name: FPSController
   m_TagString: Player
@@ -291,7 +291,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &162516426
+--- !u!114 &6169918548454473919
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -305,6 +305,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   count: 0
   countText: {fileID: 0}
+  gameController: {fileID: 0}
 --- !u!1 &100002
 GameObject:
   m_ObjectHideFlags: 0
