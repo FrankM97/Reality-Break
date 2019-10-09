@@ -83966,7 +83966,7 @@ PrefabInstance:
     - target: {fileID: 3552685229713933573, guid: c6a94a877ff9def4e9b8d5ab6f1a5bde,
         type: 3}
       propertyPath: m_Name
-      value: DustStorm
+      value: Fog
       objectReference: {fileID: 0}
     - target: {fileID: 3552685229714430245, guid: c6a94a877ff9def4e9b8d5ab6f1a5bde,
         type: 3}
@@ -84022,81 +84022,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3552685229714430245, guid: c6a94a877ff9def4e9b8d5ab6f1a5bde,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 4.424714
-      objectReference: {fileID: 0}
-    - target: {fileID: 3552685229714430245, guid: c6a94a877ff9def4e9b8d5ab6f1a5bde,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 4.424714
-      objectReference: {fileID: 0}
-    - target: {fileID: 3552685229714430245, guid: c6a94a877ff9def4e9b8d5ab6f1a5bde,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 4.424714
-      objectReference: {fileID: 0}
-    - target: {fileID: 3552685229696080997, guid: c6a94a877ff9def4e9b8d5ab6f1a5bde,
-        type: 3}
-      propertyPath: lengthInSec
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 3552685229696080997, guid: c6a94a877ff9def4e9b8d5ab6f1a5bde,
-        type: 3}
-      propertyPath: RotationModule.enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3552685229696080997, guid: c6a94a877ff9def4e9b8d5ab6f1a5bde,
-        type: 3}
-      propertyPath: InitialModule.startColor.maxColor.r
-      value: 0.8584906
-      objectReference: {fileID: 0}
-    - target: {fileID: 3552685229696080997, guid: c6a94a877ff9def4e9b8d5ab6f1a5bde,
-        type: 3}
-      propertyPath: InitialModule.startColor.maxColor.g
-      value: 0.8544411
-      objectReference: {fileID: 0}
-    - target: {fileID: 3552685229696080997, guid: c6a94a877ff9def4e9b8d5ab6f1a5bde,
-        type: 3}
-      propertyPath: InitialModule.startColor.maxColor.b
-      value: 0.8544411
-      objectReference: {fileID: 0}
-    - target: {fileID: 3552685229696080997, guid: c6a94a877ff9def4e9b8d5ab6f1a5bde,
-        type: 3}
-      propertyPath: InitialModule.startColor.minColor.r
-      value: 0.9811321
-      objectReference: {fileID: 0}
-    - target: {fileID: 3552685229696080997, guid: c6a94a877ff9def4e9b8d5ab6f1a5bde,
-        type: 3}
-      propertyPath: InitialModule.startColor.minColor.g
-      value: 0.96724814
-      objectReference: {fileID: 0}
-    - target: {fileID: 3552685229696080997, guid: c6a94a877ff9def4e9b8d5ab6f1a5bde,
-        type: 3}
-      propertyPath: InitialModule.startColor.minColor.b
-      value: 0.96724814
-      objectReference: {fileID: 0}
-    - target: {fileID: 3552685229696080997, guid: c6a94a877ff9def4e9b8d5ab6f1a5bde,
-        type: 3}
-      propertyPath: prewarm
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3552685229696080997, guid: c6a94a877ff9def4e9b8d5ab6f1a5bde,
-        type: 3}
-      propertyPath: InitialModule.startLifetime.scalar
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 3552685229696080997, guid: c6a94a877ff9def4e9b8d5ab6f1a5bde,
-        type: 3}
-      propertyPath: InitialModule.startSpeed.minMaxState
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3552685229696080997, guid: c6a94a877ff9def4e9b8d5ab6f1a5bde,
-        type: 3}
-      propertyPath: InitialModule.startSpeed.scalar
-      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3552685229696080997, guid: c6a94a877ff9def4e9b8d5ab6f1a5bde,
         type: 3}
