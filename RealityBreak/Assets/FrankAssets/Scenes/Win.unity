@@ -605,18 +605,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'You have collected all of the Memory Fragments and have returned to your
-    reality.
-
-    Although the events of this day will haunt you for years to come, you are just
-    fortunate to be back home with your loving family. What seemed like hours was
-    actually a couple weeks. Your family filed a missing persons report and a huge
-    manhunt followed to try and locate you, but couldn''t. You know trying to explain
-    what you experienced would make everyone think you''re crazy, so you decide to
-    create a fake story. Nevertheless, your family was just happy to see you safe
-    and sound.
-
-    The End'
+  m_Text: "You've amassed all of the Memory Fragments and are back to the present.\r\nAlthough
+    the events of this day will haunt you for years to come, you are simply lucky
+    to be  back home with your loving family. What seemed like hours were actually
+    weeks. Your family filed a missing persons report and a huge manhunt followed
+    to try and locate you, but to no avail. Trying to explain what you experienced
+    would make everybody assume you are crazy, so you conjure up a story. Nevertheless,
+    your family was just happy to see you safe and sound.\r\nThe End"
 --- !u!222 &1153361978
 CanvasRenderer:
   m_ObjectHideFlags: 0

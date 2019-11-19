@@ -431,33 +431,22 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 04a842e316b6f44bf8da702de26a8ed6, type: 3}
-    m_FontSize: 18
+    m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 40
-    m_Alignment: 1
+    m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Imagine being able to break out of the bounds of your current reality and
-    be sent to a hellish and horrific reality where nothing seems to end and everything
-    you see is out for blood. Well, that is exactly what happened to you. You have
-    read stories online about it, but of course. they were merely that, right? There
-    is no way something like this can exist... it isnt possible!... right? Wrong.
-    Because you were unlucky enough to somehow break the bounds of reality. You aren''t
-    sure what happened. All you remember is walking to work as usual and tripping,
-    and then everything seemed to distort and melt and go black. When your vision
-    regained, you were met with a tall, dark, and menacing forest with the threat
-    of death around every corner. You don''t know how you got here, but you know one
-    thing, you got to get out.
-
-    Returning to your reality is quite simple. Navigate the seemingly endless maze
-    of forest and collect all of your Memory Fragments to return to your reality.
-    If you can do that without the monsters catching you, you get to return home.
-    If not... well... I hope you don''t mind becoming one of the monsters.'
+  m_Text: "You aren't sure what happened.\nAll you remember is walking to work as
+    usual, then unfortunately hitting the pavement from taking a misstep.\n When you
+    came to, you were met with an eerie, menacing forest with a choking atmosphere
+    of dread.\n You don't know how you got here, but you know one thing, you have
+    to leave."
 --- !u!222 &1173964926
 CanvasRenderer:
   m_ObjectHideFlags: 0
