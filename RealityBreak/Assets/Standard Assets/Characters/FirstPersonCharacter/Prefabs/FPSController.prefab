@@ -82,7 +82,7 @@ MonoBehaviour:
     smooth: 0
     smoothTime: 5
     lockCursor: 1
-  m_UseFovKick: 1
+  m_UseFovKick: 0
   m_FovKick:
     Camera: {fileID: 0}
     originalFov: 0
@@ -305,7 +305,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   count: 0
   countText: {fileID: 0}
-  gameController: {fileID: 0}
+  audioSource: {fileID: 8200000}
+  pickup: {fileID: 8300000, guid: 83e1675430239dc4e9c33f492d5db1a2, type: 3}
 --- !u!1 &100002
 GameObject:
   m_ObjectHideFlags: 0

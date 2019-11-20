@@ -7,28 +7,42 @@ using UnityEngine;
 public class Collectable : MonoBehaviour {
 	public int count;
 	public Text countText;
-   
-	
-	
+    public AudioSource audioSource;
+    public AudioClip pickup;
 
-	public void Start() {
+    public void Start() 
+    {
 		count = 0;
 		SetCountText();
-		
-	}
+    }
 
-	private void OnTriggerEnter(Collider other) {
-		if(other.tag == "Collectable") {
+	private void OnTriggerEnter(Collider other) 
+    {
+		if(other.tag == "Collectable") 
+        {
 			Destroy(other.gameObject);
 			count = count + 1;
-			SetCountText();
-			
+            audioSource = GetComponent<AudioSource>();
+            audioSource.clip = pickup;
+            audioSource.PlayOneShot(audioSource.clip = pickup);
+            SetCountText();	
 		}
 	}
 
+    /*void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Collectable")
+        {
+            audioSource = GetComponent<AudioSource>();
+            audioSource.clip = pickup;
+            audioSource.Play();
+        }
+    }*/
 
 
-	void SetCountText() {
+
+    void SetCountText() 
+    {
 		countText.text = "Collected: " + count.ToString();
 		if (count == 5)
         {
