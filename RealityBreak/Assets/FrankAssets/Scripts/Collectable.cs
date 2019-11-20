@@ -16,7 +16,14 @@ public class Collectable : MonoBehaviour {
 		SetCountText();
     }
 
-	private void OnTriggerEnter(Collider other) 
+    public void Win()
+    {
+        SceneManager.LoadScene("Win");
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+    }
+
+    private void OnTriggerEnter(Collider other) 
     {
 		if(other.tag == "Collectable") 
         {
@@ -29,26 +36,12 @@ public class Collectable : MonoBehaviour {
 		}
 	}
 
-    /*void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.tag == "Collectable")
-        {
-            audioSource = GetComponent<AudioSource>();
-            audioSource.clip = pickup;
-            audioSource.Play();
-        }
-    }*/
-
-
-
     void SetCountText() 
     {
 		countText.text = "Collected: " + count.ToString();
 		if (count == 5)
         {
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
-            SceneManager.LoadScene("Win");
+            Win();
         }
     }
 }
