@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 8f9224d95087bbb4db7fb5577f37d003
+guid: 079c97c21a66b0346a8228ff6ec95ddf
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: hand_basemesh
     100002: //RootNode
-    100004: Msk_Monst
+    100004: polySurface5
     400000: hand_basemesh
     400002: //RootNode
-    400004: Msk_Monst
-    2100000: MskClr
-    2100002: BdyClr
-    2300000: Msk_Monst
-    3300000: Msk_Monst
-    4300000: Msk_Monst
+    400004: polySurface5
+    2100000: phong2
+    2100002: phong1
+    2300000: polySurface5
+    3300000: polySurface5
+    4300000: polySurface5
   externalObjects: {}
   materials:
     importMaterials: 1
